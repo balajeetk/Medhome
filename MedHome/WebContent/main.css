@@ -1,0 +1,73 @@
+.leftside,.rightside
+{
+	height:100vh;
+	width:100%
+}
+
+.leftside
+{
+	background-image: url("images/medx.PNG");
+	background-color:#031549;
+	background-repeat: no-repeat;
+	background-attachment:relative;
+	background-position:center ;
+	
+
+}
+.rightside
+{
+	background-color:solid white;
+	
+	
+}
+.loginform
+{
+  position:absolute;
+  margin:200px;
+  width:400px;
+  height:400px;
+  padding:80px;
+  border:7px solid #031549;
+  border-radius:25px;
+  background-color:#FF8038;
+}
+h4
+{
+	color:#031549;
+	text-align:center;
+}
+button
+{
+	border-radius:50px;
+	border-color:solid blue;
+	height:45px;
+	padding:10px;
+	margin:15px;
+	background-color:#031549;
+	color:white;
+	position:absolute;
+}
+input[type=text],input[type=password]
+{
+	border-radius:50px;
+	height:40px;
+	background-color:#FDDFCF;
+}
+input[type=submit]
+{
+	border-radius:50px;
+	border-color:solid blue;
+	height:45px;
+	padding:10px;
+	margin:15px;
+	background-color:#031549;
+	color:white;
+	position:absolute;
+}
+p
+{
+	text-align:right;
+	color:#031549;
+}
+
+

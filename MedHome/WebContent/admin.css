@@ -1,0 +1,103 @@
+
+body
+{
+	height:100vh;
+	background-color:#031549;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#FF8038;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+}
+
+.active {
+  background-color:white;
+}
+.addform
+{
+  position:relative;
+  margin:150px;
+  width:500px;
+  height:650px;
+  padding:7px;
+  border:7px solid #031549;
+  background-color:#FF8038;
+  border-radius:25px;
+  
+}
+h4
+{
+	color:#031549;
+	text-align:center;
+}
+input[type=text],input[type=password],input[type=date],textarea
+{
+	border-radius:50px;
+	
+	background-color:#FDDFCF;
+	width:65%;
+	padding:13px;
+}
+
+.submit1
+{
+	border-radius:50px;
+	border-color:solid blue;
+	height:45px;
+	width:50%;
+	padding:10px;
+	margin:15px;
+	background-color:#031549;
+	color:white;
+	position:absolute;
+	right:0;
+}
+p
+{
+	text-align:right;
+	color:#031549;
+}
+.btn{
+     
+     position:fixed;
+     bottom:650px;
+     right:0;
+ }
+ h3
+ {
+      position:fixed;
+     bottom:665px;
+     margin-right:60px;
+     right:0;
+    color:#FF8038;
+ }
+.imf
+{
+
+	
+	position:fixed;
+	bottom:150px;left:20px;
+	
+	
+
+}
+
